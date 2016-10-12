@@ -11,9 +11,6 @@
     function WeatherController(WeatherFactory, toastr) {
         var vm = this;
         // 
-
-
-
         vm.cityData;
         vm.searchHistory = [];
         vm.addSearch = addSearch;
@@ -29,7 +26,11 @@
             });
 
         }
+        
+        
         ////////////////
+        
+        
         function addSearch() {
             vm.searchHistory.push({
                 "event": vm.cityData.data.name,
@@ -37,10 +38,6 @@
 
             });
         }
-
-
-
-
 
     }
 })();
