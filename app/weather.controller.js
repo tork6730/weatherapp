@@ -45,22 +45,4 @@
     }
 })();
 
-// function activate() {
-
-//     WeatherFactory.getWeather().then(function(result){
-//         vm.name = result.name;
-//     })
-// }
-
-
-
-// vm.location = 
-// vm.lat = 
-// vm.long = 
-// vm.temp = 
-// vm.pressure = 
-// vm.humidity = 
-// vm.ltemp = 
-// vm.htemp = 
-// vm.wspeed = 
-// vm.cityname =
+// REVIEWED - MT JDCT HN
